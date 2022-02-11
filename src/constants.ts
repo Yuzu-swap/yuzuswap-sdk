@@ -158,7 +158,7 @@ export const ZOO_SWAP_MINING_ADDRESS: { [chainId in ChainId]?: string } = {
 export const ZOO_PARK_EXT_PID: { [chainId in ChainId]?: number } = {
   [ChainId.MAINNET]: 0,
   [ChainId.ROPSTEN]: 0,
-  [ChainId.OASISETH_MAIN]: -1,
+  [ChainId.OASISETH_MAIN]: 5,
   [ChainId.OKCHAIN_TEST]:0,
   [ChainId.OASISETH_TEST]: 4
 }
