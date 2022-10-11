@@ -55,6 +55,7 @@ export class Currency {
     [ChainId.HECO]: Currency.HT,
     [ChainId.OASISETH_MAIN]: Currency.ROSE,
     [ChainId.OASISETH_TEST]: Currency.ROSE,
+    [ChainId.OASISETH_SAPPHIRE]: Currency.ROSE,
     [ChainId.HECO_TESTNET]: Currency.HT
   }
 
