@@ -30,6 +30,7 @@ export enum ChainId {
   HECO_TESTNET = 256,
   OASISETH_MAIN = 42262,
   OASISETH_TEST = 42261,
+  OASISETH_SAPPHIRE = 23295
 }
 
 export enum TradeType {
@@ -77,6 +78,7 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HECO_TESTNET]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
   [ChainId.OASISETH_MAIN] :'0x5F50fDC22697591c1D7BfBE8021163Fc73513653',
   [ChainId.OASISETH_TEST] :'0x72A2937B8eedBF6F0b6d110F0E0Ff2f613ED2f08',
+  [ChainId.OASISETH_SAPPHIRE] : ''
 }
 
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
@@ -102,6 +104,7 @@ export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HECO_TESTNET]: '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
   [ChainId.OASISETH_MAIN] :'0x250d48C5E78f1E85F7AB07FEC61E93ba703aE668',
   [ChainId.OASISETH_TEST] :'0x36F169362228C73629Ed22512792eA5FB2cD8c2a',
+  [ChainId.OASISETH_SAPPHIRE] : ''
 }
 
 
@@ -216,7 +219,8 @@ export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.OKCHAIN]: '',
   [ChainId.OASISETH_MAIN] :'0x7cE9D5cD6D9ddBd0CCa73837a1cd31c76F6c1857',
   [ChainId.OASISETH_TEST] :'',
-  [ChainId.HECO_TESTNET]: ''
+  [ChainId.HECO_TESTNET]: '',
+  [ChainId.OASISETH_SAPPHIRE] : ''
 }
 
 export const BAR_ADDRESS: { [chainId in ChainId]: string } = {
@@ -241,7 +245,8 @@ export const BAR_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HECO]: '',
   [ChainId.OASISETH_MAIN] :'',
   [ChainId.OASISETH_TEST] :'',
-  [ChainId.HECO_TESTNET]: ''
+  [ChainId.HECO_TESTNET]: '',
+  [ChainId.OASISETH_SAPPHIRE] : ''
 }
 
 export const MAKER_ADDRESS: { [chainId in ChainId]: string } = {
@@ -266,7 +271,8 @@ export const MAKER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HECO]: '',
   [ChainId.OASISETH_MAIN] :'',
   [ChainId.OASISETH_TEST] :'',
-  [ChainId.HECO_TESTNET]: ''
+  [ChainId.HECO_TESTNET]: '',
+  [ChainId.OASISETH_SAPPHIRE] : ''
 }
 
 export const TIMELOCK_ADDRESS: { [chainId in ChainId]: string } = {
@@ -291,5 +297,6 @@ export const TIMELOCK_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HECO]: '',
   [ChainId.OASISETH_MAIN] :'',
   [ChainId.OASISETH_TEST] :'',
-  [ChainId.HECO_TESTNET]: ''
+  [ChainId.HECO_TESTNET]: '',
+  [ChainId.OASISETH_SAPPHIRE] : ''
 }
