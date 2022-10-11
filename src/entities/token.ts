@@ -249,7 +249,8 @@ export const SUSHI_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HECO]: '',
   [ChainId.OASISETH_MAIN]: '',
   [ChainId.OASISETH_TEST]: DefaultChainToken[ChainId.OASISETH_TEST].YUZU.address,
-  [ChainId.HECO_TESTNET]: ''
+  [ChainId.HECO_TESTNET]: '',
+  [ChainId.OASISETH_SAPPHIRE]: ''
 }
 // 平台币
 export const ECOSYSTEM_TOKEN_ADDRESS = SUSHI_ADDRESS
