@@ -120,6 +120,13 @@ export const DefaultChainToken = {
     BTC: new Token(ChainId.OASISETH_TEST, '0x961C7a3f1909243C9af056Fd11EdDa2e18b35C7b', 18, 'BTC', 'BTC'),
     YUZU: new Token(ChainId.OASISETH_TEST, '0x59e573F48D379D95064811e3C59546f2f350bb2b', 18, 'YUZU', 'YUZU'),
   },
+  [ChainId.OASISETH_SAPPHIRE_TEST]: {
+    ETH: new Token(ChainId.OASISETH_TEST, '0x8326004d1C7962cD8Ad9FbEb137C9642732cD841', 18, 'ETH', 'ETH'),
+    USDT: new Token(ChainId.OASISETH_TEST, '0xefbCC63d64481c8184B58C73b89Fa81882Fc0729', 18, 'USDT', 'USDT'),
+    BTC: new Token(ChainId.OASISETH_TEST, '0xfd6E9A9605e610Eb893f7Dfceb6aD83993da63C5', 18, 'BTC', 'BTC'),
+    BYOBU: new Token(ChainId.OASISETH_TEST, '0xeB9a67f9f35c1898B662d7FE1Eb68986eD5a6513', 18, 'BYOBU', 'BYOBU'),
+  },
+
 }
 // In reality this is a map of the wrapped version of the native token for a given network.
 // TODO: Rename to WNATIVE for sanity
@@ -226,7 +233,7 @@ export const WETH = {
   ),
   [ChainId.OASISETH_SAPPHIRE]: new Token(
     ChainId.OASISETH_SAPPHIRE,
-    '0x792296e2a15e6Ceb5f5039DecaE7A1f25b00B0B0',
+    '0x496045265a85495145b5BaCD1e3e85a847C28456',
     18,
     'wROSE',
     'Wrapped ROSE'
@@ -257,7 +264,8 @@ export const SUSHI_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.OASISETH_MAIN]: '',
   [ChainId.OASISETH_TEST]: DefaultChainToken[ChainId.OASISETH_TEST].YUZU.address,
   [ChainId.HECO_TESTNET]: '',
-  [ChainId.OASISETH_SAPPHIRE]: ''
+  [ChainId.OASISETH_SAPPHIRE]: '',
+  [ChainId.OASISETH_SAPPHIRE_TEST]: ''
 }
 // 平台币
 export const ECOSYSTEM_TOKEN_ADDRESS = SUSHI_ADDRESS
