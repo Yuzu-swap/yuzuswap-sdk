@@ -238,6 +238,13 @@ export const WETH = {
     'wROSE',
     'Wrapped ROSE'
   ),
+  [ChainId.OASISETH_SAPPHIRE_TEST]: new Token(
+    ChainId.OASISETH_SAPPHIRE_TEST,
+    '0x496045265a85495145b5BaCD1e3e85a847C28456',
+    18,
+    'wROSE',
+    'Wrapped ROSE'
+  ),
 }
 
 
