@@ -120,6 +120,11 @@ export const DefaultChainToken = {
     BTC: new Token(ChainId.OASISETH_TEST, '0x961C7a3f1909243C9af056Fd11EdDa2e18b35C7b', 18, 'BTC', 'BTC'),
     YUZU: new Token(ChainId.OASISETH_TEST, '0x59e573F48D379D95064811e3C59546f2f350bb2b', 18, 'YUZU', 'YUZU'),
   },
+  [ChainId.MERLIN_TESTNET]: {
+    PIZZA : new Token(ChainId.MERLIN_TESTNET, '0xbC18233857d906BCA391F3f642783745Da4dCF40', 18, 'PIZZA', 'PIZZA'),
+    WBTC: new Token(ChainId.MERLIN_TESTNET, '0x81B6304102c2d6baBd599c2557d1A8b4Bdc9521B', 18, 'wBTC', 'wBTC'),
+    MBTC: new Token(ChainId.MERLIN_TESTNET, '0xBCa85Ef2835A8d687DBF7B815DA205886C318893', 18, 'mBTC', 'mBTC'),
+  }
 }
 // In reality this is a map of the wrapped version of the native token for a given network.
 // TODO: Rename to WNATIVE for sanity
@@ -231,6 +236,7 @@ export const WETH = {
     'wROSE',
     'Wrapped ROSE'
   ),
+  [ChainId.MERLIN_TESTNET]: DefaultChainToken[ChainId.MERLIN_TESTNET].WBTC
 }
 
 
@@ -257,7 +263,8 @@ export const SUSHI_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.OASISETH_MAIN]: '',
   [ChainId.OASISETH_TEST]: DefaultChainToken[ChainId.OASISETH_TEST].YUZU.address,
   [ChainId.HECO_TESTNET]: '',
-  [ChainId.OASISETH_SAPPHIRE]: ''
+  [ChainId.OASISETH_SAPPHIRE]: '',
+  [ChainId.MERLIN_TESTNET]: DefaultChainToken[ChainId.MERLIN_TESTNET].PIZZA.address
 }
 // 平台币
 export const ECOSYSTEM_TOKEN_ADDRESS = SUSHI_ADDRESS
