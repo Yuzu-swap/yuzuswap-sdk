@@ -33,6 +33,8 @@ export class Currency {
 
   public static readonly ROSE: Currency = new Currency(18, 'ROSE', 'ROSE Token')
 
+  public static readonly BTC: Currency = new Currency(18, 'BTC', 'BTC')
+
   public static readonly NATIVE = {
     [ChainId.MAINNET]: Currency.ETHER,
     [ChainId.ROPSTEN]: Currency.ETHER,
@@ -56,6 +58,7 @@ export class Currency {
     [ChainId.OASISETH_MAIN]: Currency.ROSE,
     [ChainId.OASISETH_TEST]: Currency.ROSE,
     [ChainId.OASISETH_SAPPHIRE]: Currency.ROSE,
+    [ChainId.MERLIN_TESTNET]: Currency.BTC,
     [ChainId.HECO_TESTNET]: Currency.HT
   }
 
