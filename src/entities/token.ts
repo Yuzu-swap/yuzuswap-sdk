@@ -236,7 +236,8 @@ export const WETH = {
     'wROSE',
     'Wrapped ROSE'
   ),
-  [ChainId.MERLIN_TESTNET]: DefaultChainToken[ChainId.MERLIN_TESTNET].WBTC
+  [ChainId.MERLIN_TESTNET]: DefaultChainToken[ChainId.MERLIN_TESTNET].WBTC,
+  [ChainId.MERLIN_MAIN]:  DefaultChainToken[ChainId.MERLIN_TESTNET].WBTC,
 }
 
 
