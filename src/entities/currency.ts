@@ -59,6 +59,7 @@ export class Currency {
     [ChainId.OASISETH_TEST]: Currency.ROSE,
     [ChainId.OASISETH_SAPPHIRE]: Currency.ROSE,
     [ChainId.MERLIN_TESTNET]: Currency.BTC,
+    [ChainId.MERLIN_MAIN]: Currency.BTC,
     [ChainId.HECO_TESTNET]: Currency.HT
   }
 
