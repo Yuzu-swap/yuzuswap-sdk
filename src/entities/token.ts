@@ -264,7 +264,8 @@ export const SUSHI_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.OASISETH_TEST]: DefaultChainToken[ChainId.OASISETH_TEST].YUZU.address,
   [ChainId.HECO_TESTNET]: '',
   [ChainId.OASISETH_SAPPHIRE]: '',
-  [ChainId.MERLIN_TESTNET]: DefaultChainToken[ChainId.MERLIN_TESTNET].PIZZA.address
+  [ChainId.MERLIN_TESTNET]: DefaultChainToken[ChainId.MERLIN_TESTNET].PIZZA.address,
+  [ChainId.MERLIN_MAIN]: ''
 }
 // 平台币
 export const ECOSYSTEM_TOKEN_ADDRESS = SUSHI_ADDRESS

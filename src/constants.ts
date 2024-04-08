@@ -31,7 +31,8 @@ export enum ChainId {
   OASISETH_MAIN = 42262,
   OASISETH_TEST = 42261,
   OASISETH_SAPPHIRE = 23295,
-  MERLIN_TESTNET = 686868
+  MERLIN_TESTNET = 686868,
+  MERLIN_MAIN = 4200
 }
 
 export enum TradeType {
@@ -81,7 +82,8 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.OASISETH_MAIN] :'0x5F50fDC22697591c1D7BfBE8021163Fc73513653',
   [ChainId.OASISETH_TEST] :'0x72A2937B8eedBF6F0b6d110F0E0Ff2f613ED2f08',
   [ChainId.OASISETH_SAPPHIRE] : '',
-  [ChainId.MERLIN_TESTNET] : '0xE55408Cb4A925f320C506792BcB13eAbA377d4d9'
+  [ChainId.MERLIN_TESTNET] : '0xE55408Cb4A925f320C506792BcB13eAbA377d4d9',
+  [ChainId.MERLIN_MAIN]: ''
 }
 
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
@@ -108,7 +110,8 @@ export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.OASISETH_MAIN] :'0x250d48C5E78f1E85F7AB07FEC61E93ba703aE668',
   [ChainId.OASISETH_TEST] :'0x36F169362228C73629Ed22512792eA5FB2cD8c2a',
   [ChainId.OASISETH_SAPPHIRE] : '',
-  [ChainId.MERLIN_TESTNET]: '0x52B58E5Cfc0d40356AeFf681246a77510974e744'
+  [ChainId.MERLIN_TESTNET]: '0x52B58E5Cfc0d40356AeFf681246a77510974e744',
+  [ChainId.MERLIN_MAIN]: ''
 }
 
 
@@ -228,7 +231,8 @@ export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.OASISETH_TEST] :'',
   [ChainId.HECO_TESTNET]: '',
   [ChainId.OASISETH_SAPPHIRE] : '',
-  [ChainId.MERLIN_TESTNET]: ''
+  [ChainId.MERLIN_TESTNET]: '',
+  [ChainId.MERLIN_MAIN]: ''
 }
 
 export const BAR_ADDRESS: { [chainId in ChainId]: string } = {
@@ -255,7 +259,8 @@ export const BAR_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.OASISETH_TEST] :'',
   [ChainId.HECO_TESTNET]: '',
   [ChainId.OASISETH_SAPPHIRE] : '',
-  [ChainId.MERLIN_TESTNET]: ''
+  [ChainId.MERLIN_TESTNET]: '',
+  [ChainId.MERLIN_MAIN]: ''
 }
 
 export const MAKER_ADDRESS: { [chainId in ChainId]: string } = {
@@ -282,7 +287,8 @@ export const MAKER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.OASISETH_TEST] :'',
   [ChainId.HECO_TESTNET]: '',
   [ChainId.OASISETH_SAPPHIRE] : '',
-  [ChainId.MERLIN_TESTNET]: ''
+  [ChainId.MERLIN_TESTNET]: '',
+  [ChainId.MERLIN_MAIN]: ''
 }
 
 export const TIMELOCK_ADDRESS: { [chainId in ChainId]: string } = {
@@ -309,5 +315,6 @@ export const TIMELOCK_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.OASISETH_TEST] :'',
   [ChainId.HECO_TESTNET]: '',
   [ChainId.OASISETH_SAPPHIRE] : '',
-  [ChainId.MERLIN_TESTNET]: ''
+  [ChainId.MERLIN_TESTNET]: '',
+  [ChainId.MERLIN_MAIN]: ''
 }
